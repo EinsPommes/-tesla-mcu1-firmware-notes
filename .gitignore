@@ -1,0 +1,30 @@
+# Never commit firmware, extracted binaries, or any Tesla-owned bytes
+*.mcu1
+*.plf
+*.img
+*.dirsquashed
+2022.8.10.5/
+2022.8.10.5.zip
+bins/
+extracted/
+*.bin
+*.so
+*.so.*
+
+# Analysis artifacts (regenerable)
+*.json
+!package.json
+funcs.json
+ap_funcs.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/
